@@ -1,0 +1,284 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://pbs.twimg.com/profile_images/1061068944914567168/Mpk7-_AF_400x400.jpg",
+        "size": "full",
+        "aspectRatio": "4:3",
+        "aspectMode": "cover",
+        "action": {
+          "type": "uri",
+          "uri": "http://linecorp.com/"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Survey Danusan Favorit",
+            "weight": "bold",
+            "align": "center"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "margin": "lg",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Khusus jurusan TE 18",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 1,
+                    "align": "center"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "link",
+            "action": {
+              "type": "postback",
+              "label": "Sosis solo",
+              "text": "Sosis solo",
+              "data": "te18sosissolo"
+            }
+          },
+          {
+            "type": "button",
+            "style": "link",
+            "action": {
+              "type": "postback",
+              "label": "Roti pisang",
+              "text": "Roti pisang",
+              "data": "te18rotipisang"
+            }
+          },
+          {
+            "type": "button",
+            "style": "link",
+            "action": {
+              "type": "postback",
+              "label": "Pisang aroma",
+              "text": "Pisang aroma",
+              "data": "te18pisangaroma"
+            }
+          },
+          {
+            "type": "spacer",
+            "size": "sm"
+          }
+        ],
+        "flex": 0
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://pbs.twimg.com/profile_images/1061068944914567168/Mpk7-_AF_400x400.jpg",
+        "size": "full",
+        "aspectRatio": "4:3",
+        "aspectMode": "cover",
+        "action": {
+          "type": "uri",
+          "uri": "http://linecorp.com/"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Survey Danusan Favorit",
+            "weight": "bold",
+            "align": "center"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "margin": "lg",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Khusus jurusan TE 18",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 1,
+                    "align": "center"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "link",
+            "action": {
+              "type": "postback",
+              "label": "Roti coklat",
+              "text": "Roti coklat",
+              "data": "te18roticoklat"
+            }
+          },
+          {
+            "type": "button",
+            "style": "link",
+            "action": {
+              "type": "postback",
+              "label": "Tahu bakso",
+              "text": "Tahu bakso",
+              "data": "te18tahubakso"
+            }
+          },
+          {
+            "type": "button",
+            "style": "link",
+            "action": {
+              "type": "postback",
+              "label": "Krakers",
+              "text": "Krakers",
+              "data": "te18krakers"
+            }
+          },
+          {
+            "type": "spacer",
+            "size": "sm"
+          }
+        ],
+        "flex": 0
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://pbs.twimg.com/profile_images/1061068944914567168/Mpk7-_AF_400x400.jpg",
+        "size": "full",
+        "aspectRatio": "4:3",
+        "aspectMode": "cover",
+        "action": {
+          "type": "uri",
+          "uri": "http://linecorp.com/"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Survey Danusan Favorit",
+            "weight": "bold",
+            "align": "center"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "margin": "lg",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Khusus jurusan TE 18",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 1,
+                    "align": "center"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "link",
+            "action": {
+              "type": "postback",
+              "label": "Sate bakso",
+              "text": "Sate bakso",
+              "data": "te18satebakso"
+            }
+          },
+          {
+            "type": "button",
+            "style": "link",
+            "action": {
+              "type": "postback",
+              "label": "Sus keju",
+              "text": "Sus keju",
+              "data": "te18suskeju"
+            }
+          },
+          {
+            "type": "button",
+            "style": "link",
+            "action": {
+              "type": "postback",
+              "label": "Susu fapet",
+              "text": "Susu fapet",
+              "data": "te18susufapet"
+            }
+          },
+          {
+            "type": "spacer",
+            "size": "sm"
+          }
+        ],
+        "flex": 0
+      }
+    }
+  ]
+}

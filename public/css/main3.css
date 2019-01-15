@@ -1,0 +1,463 @@
+@charset "UTF-8";
+/*body*/
+body {
+  background: #fff;
+  font-family: sans-serif;
+  line-height: 22px;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+a {
+  -webkit-transition: color 300ms, background-color 300ms;
+  -moz-transition: color 300ms, background-color 300ms;
+  -o-transition: color 300ms, background-color 300ms;
+  transition: color 300ms, background-color 300ms;
+}
+
+hr {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #fff;
+}
+
+.read-more{
+    background: #9BF99A;
+    color: black;
+}
+
+.center h2 {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+.media>.pull-left {
+  margin-right: 20px;
+}
+
+.media>.pull-right {
+  margin-left: 20px;
+}
+
+body>section {
+  padding: 20px 0;
+}
+
+.center {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+/*Header*/
+#header .search {
+  display: inline-block;
+}
+
+.search {
+  color: #fff;
+  padding-top: 20px;
+}
+
+input{
+    display: none;
+}
+
+input.search-form {
+  background: transparent;
+  text-align: center;
+  border: 0 none;
+  width: 60px;
+  padding: 0 10px;
+  color: #FFF;
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -ms-transition: all 400ms;
+  -o-transition: all 400ms;
+  transition: all 400ms;
+}
+
+input.search-form::-webkit-input-placeholder {
+  color: transparent;
+}
+
+input.search-form:hover::-webkit-input-placeholder {
+  color: #fff;
+}
+
+input.search-form:hover {
+  width: 180px;
+}
+
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+  background: #151515;
+  padding: 15px 0;
+  padding-bottom: 0;
+}
+
+/* Survey CSS */
+.survey_heading {
+  margin-top: 120px
+}
+
+.survey_heading h2,
+.survey_heading p {
+  color: #4e4e4e;
+}
+
+.survey-area h1 {
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.survey-area span {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.survey-area h3,
+.survey-area span {
+  color: #fff;
+}
+
+.plan {
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.survey-area ul {
+  background: #FAFAFA;
+  padding: 0;
+  margin: 0;
+}
+
+.survey-area ul li {
+  list-style: none;
+  padding: 15px 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.survey-area ul li:nth-child(even) {
+  background: #f5f5f5
+}
+
+.survey-area .section-three img,
+.survey-area .section-six img {
+  position: absolute;
+  right: 15px;
+  top: 0;
+}
+
+.survey-area .heading-one,
+.survey-area .heading-two,
+.survey-area .heading-three,
+.survey-area .heading-four,
+.survey-area .heading-five,
+.survey-area .heading-six,
+.survey-area .heading-seven {
+  margin-left: -10px
+}
+
+
+.survey-area .heading-one,
+.survey-area .section-one .plan-action .btn-primary {
+  background: #9BF99A
+}
+
+.survey-area .heading-two,
+.survey-area .section-two .plan-action .btn-primary {
+  background: #27AE60;
+}
+
+.survey-area .heading-three,
+.survey-area .section-three .plan-action .btn-primary {
+  background: #f39c12;
+}
+
+.survey-area .heading-four,
+.survey-area .section-four .plan-action .btn-primary {
+  background: #5c5c5c
+}
+
+.survey-area .heading-five,
+.survey-area .section-five .plan-action .btn-primary {
+  background: #5c5c5c
+}
+
+.survey-area .heading-six,
+.survey-area .section-six .plan-action .btn-primary {
+  background: #e24f43;
+}
+
+.survey-area .heading-seven,
+.survey-area .section-seven .plan-action .btn-primary {
+  background: #5c5c5c
+}
+
+.survey-area .bg {
+  background: #fafafa
+}
+
+.survey-area .heading-one h3:before {
+  border-color: #bf4539 transparent transparent;
+}
+
+.survey-area .heading-two h3:before {
+  border-color: #1f8c4d transparent transparent;
+}
+
+.survey-area .heading-three h3:before {
+  border-color: #d4880f transparent transparent;
+}
+
+.survey-area .heading-four h3:before {
+  border-color: #424242 transparent transparent;
+}
+
+.survey-area .heading-five h3:before {
+  border-color: #424242 transparent transparent;
+}
+
+.survey-area .heading-six h3:before {
+  border-color: #bf4539 transparent transparent;
+}
+
+.survey-area .heading-seven h3:before {
+  border-color: #424242 transparent transparent;
+}
+
+.survey-area h3:before {
+  border-color: #D4880F transparent transparent;
+  border-radius: 5px 0 0 0px;
+  border-style: solid;
+  border-width: 12px;
+  content: "";
+  height: 0;
+  left: 4px;
+  position: absolute;
+  top: 78px;
+  width: 0;
+  z-index: -999;
+}
+
+.small-survey h3:after {
+  height: 94px;
+}
+
+.small-survey h3:before {
+  top: 74px;
+}
+
+.plan-action {
+  height: 40px;
+}
+
+.survey-area .plan-action .btn-primary {
+  position: relative;
+  padding: 5px 20px;
+  margin-top: 5px;
+}
+
+.survey-area .plan-action .btn-primary a {
+  color: black;
+}
+
+.survey-area .plan-action .btn-primary:before {
+  border-radius: 5px 0 0 0;
+  border-style: solid;
+  border-width: 12px;
+  bottom: -12px;
+  content: "";
+  height: 0;
+  left: -9px;
+  position: absolute;
+  width: 0;
+  z-index: -1;
+}
+
+.survey-area .plan-action .btn-primary:after {
+  border-radius: 5px 0 0 0;
+  border-style: solid;
+  border-width: 12px;
+  bottom: -12px;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: -9px;
+  width: 0;
+  z-index: -1;
+}
+
+.survey-area .section-two .plan-action .btn-primary:before,
+.survey-area .section-two .plan-action .btn-primary:after {
+  border-color: #1f8c4d transparent transparent;
+}
+
+.survey-area .section-three .plan-action .btn-primary:before,
+.survey-area .section-three .plan-action .btn-primary:after {
+  border-color: #d4880f transparent transparent;
+}
+
+.survey-area .section-four .plan-action .btn-primary:before,
+.survey-area .section-four .plan-action .btn-primary:after,
+.survey-area .section-five .plan-action .btn-primary:before,
+.survey-area .section-five .plan-action .btn-primary:after,
+.survey-area .section-seven .plan-action .btn-primary:before,
+.survey-area .section-seven .plan-action .btn-primary:after {
+  border-color: #424242 transparent transparent;
+  right: -9px;
+}
+
+.survey-area .section-six .plan-action .btn-primary:before,
+.survey-area .section-six .plan-action .btn-primary:after {
+  border-color: #bf4539 transparent transparent;
+  right: -9px;
+}
+
+/* survey Table CSS */
+.survey_heading {
+  margin-top: 120px
+}
+
+.survey_heading h2,
+.survey_heading p {
+  color: #4e4e4e;
+}
+
+.survey-area h1 {
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.survey-area span {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.survey-area h3,
+.survey-area span {
+  color: #fff;
+}
+
+.plan {
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.survey-area ul {
+  background: #FAFAFA;
+  padding: 0;
+  margin: 0;
+}
+
+.survey-area ul li {
+  list-style: none;
+  padding: 15px 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.survey-area ul li:nth-child(even) {
+  background: #f5f5f5
+}
+
+.survey-area .section-three img{
+  position: absolute;
+  right: 15px;
+  top: 0;
+}
+
+.survey-area .heading-one,
+.survey-area .heading-two,
+.survey-area .heading-three,
+.survey-area .heading-four,
+.survey-area .heading-five,
+.survey-area .heading-six,
+.survey-area .heading-seven {
+  margin-left: -10px
+}
+
+.survey-area .heading-three,
+.survey-area .section-three .plan-action .btn-primary {
+  background: #f39c12;
+}
+
+.survey-area h3:before {
+  border-color: #D4880F transparent transparent;
+  border-radius: 5px 0 0 0px;
+  border-style: solid;
+  border-width: 12px;
+  content: "";
+  height: 0;
+  left: 4px;
+  position: absolute;
+  top: 78px;
+  width: 0;
+  z-index: -999;
+}
+
+.plan-action {
+  height: 40px;
+}
+
+.survey-area .plan-action .btn-primary {
+  position: relative;
+  padding: 5px 20px;
+  margin-top: 5px;
+}
+
+.survey-area .plan-action .btn-primary a {
+  color: black;
+}
+
+.survey-area .plan-action .btn-primary:before {
+  border-radius: 5px 0 0 0;
+  border-style: solid;
+  border-width: 12px;
+  bottom: -12px;
+  content: "";
+  height: 0;
+  left: -9px;
+  position: absolute;
+  width: 0;
+  z-index: -1;
+}
+
+.survey-area .plan-action .btn-primary:after {
+  border-radius: 5px 0 0 0;
+  border-style: solid;
+  border-width: 12px;
+  bottom: -12px;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: -9px;
+  width: 0;
+  z-index: -1;
+}
+
+.survey-area .section-three .plan-action .btn-primary:before,
+.survey-area .section-three .plan-action .btn-primary:after {
+  border-color: #d4880f transparent transparent;
+}
